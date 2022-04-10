@@ -9,12 +9,12 @@ import{Quote} from '../quote'
 export class QuoteComponent implements OnInit {
 
   quotes:Quote[] =[
-    new Quote (1,'Charles','Human spirit','The human spirit must prevail over technology to allow humans be in charge.','Albert Einstein', new Date(2019,7,12),0,0),
-    new Quote (2,'Wendy','Technology…','Technology… the knack of so arranging  that we don’t have to experience it.','Max Frisch',new Date(2019,7,14),0,0),
-    new Quote (3,'Mikey','The great myth','The great myth of our times is that technology is communication.','Libby Larsen',new Date(2019,6,3),0,0),
-    new Quote (4,'Beatrice','Communication','Communications tools don’t get socially interesting until they get technologically boring.','Clay Shirky',new Date(2019,7,7),0,0),
-    new Quote (5,'Charles','Code and people','Programs must be written for people to read, and only incidentally for machines to execute.','Harold Abelson',new Date(2019,7,17),0,0),
-    new Quote (6,'Alfred','Tech and life','For a list of all the ways technology has failed to improve the quality of life, please press three.','Alice Kahn',new Date(2019,7,15),0,0)
+    new Quote (1,'Eunice','Failure','Each individual is to be blamed for their failures no matter what, because if we wanted to suceed  we would rise up whenever we fall untill we reach our goals .','By MOM', new Date(2019,7,12),0,0),
+    new Quote (2,'Brian','Education','Education is not the main key to success but it is the door because when it brings an opportunity you will be among the chosen and you can use it now to suceed.','Reelgoat',new Date(2019,7,14),0,0),
+    new Quote (3,'Cheruiyot','success','To success is like a seed, you will plant and water it for it to bear fruits.You need time,patience,prayer and faith to succeed.','By Dad',new Date(2019,6,3),0,0),
+    new Quote (4,'Walt Disney','Rising','The way to get started is to quit talking and begin doing. ','Floyd',new Date(2019,7,7),0,0),
+    new Quote (5,'peter','Life','If life were predictable it would cease to be life, and be without flavor.','Eleanor Roosevelt',new Date(2019,7,17),0,0),
+    new Quote (6,'Duke','Believing','The future belongs to those who believe in the beauty of their dreams.','Aroan ',new Date(2019,7,15),0,0)
   
    ]
   constructor() { }

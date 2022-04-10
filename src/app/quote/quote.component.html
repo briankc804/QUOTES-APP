@@ -3,9 +3,12 @@
     <hr>
     <ul>
       <li *ngFor='let quote of quotes'>
+        {{quote.id}}
         {{quote.name}}
-        {{quote.author}}
         {{quote.title}}
+        {{quote.description}}
+        {{quote.author}}
+       
         
       </li>
     </ul>

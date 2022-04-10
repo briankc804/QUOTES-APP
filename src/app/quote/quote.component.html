@@ -6,11 +6,12 @@
         {{quote.id}}
         {{quote.name}}
         {{quote.title}}
-        {{quote.description}}
         {{quote.author}}
-       
-        
+       <app-quote-detail [quote]='quote'></app-quote-detail>
+        <p>
+            {{quote.description}}
+        </p>
       </li>
     </ul>
-    <p *ngIf='quotes.length >15'>your quotes are too many</p>
+    
   </div>

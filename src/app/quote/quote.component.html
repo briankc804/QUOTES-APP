@@ -17,7 +17,10 @@
           </div>
         </div>
       </div>
+      <div class="col-md-6">
+        <app-quote-form></app-quote-form>
+      </div>
     </div>
   
-    <p *ngIf='quotes.length > 5'>You have too many goals</p>
+    <p *ngIf='quotes.length > 4'>You have too many goals</p>
   </div>

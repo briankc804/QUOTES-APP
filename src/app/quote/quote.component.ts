@@ -17,6 +17,15 @@ export class QuoteComponent implements OnInit {
     new Quote (6,'Duke','Believing','The future belongs to those who believe in the beauty of their dreams.','Aroan ',new Date(2019,7,15),0,0)
   
    ]
+
+   toggleDetails(index:any){
+     this.quotes[index].showDescrition =!this.quotes[index].showDescrition;
+   }
+   completeQuote(isComplete: any,index: number){
+     if (isComplete) {
+       this.quotes.splice(index,1);
+     }
+   }
   constructor() { }
 
   ngOnInit(): void {

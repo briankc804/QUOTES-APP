@@ -1,7 +1,8 @@
 # Quotes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
-
+## Description
+This web application helps to create quotes and can also vote on the quotes if we like them or dislike them.
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

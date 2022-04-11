@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class PrevoteComponent implements OnInit {
   
-  @Input () prevote: string | undefined;
+  @Input () prevote : string |undefined;
   numberOfLikes: number = 0;
   upvoteButtonClick(){
     this.numberOfLikes+=1;

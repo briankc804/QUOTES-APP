@@ -5,21 +5,28 @@
   
     <div class="row">
       <div class="col-md-6">
-        <div *ngFor='let quote of quotes;let i = index'>
-          <div>
-            <li> {{quote.id}} {{quote.name}}, {{quote.title}}, {{quote.author}}</li>
-            
-            <button (click)='toggleDetails(i)' class="btn btn-primary">Toggle Details</button>
-            
-          </div>
-           <app-prevote></app-prevote>
-          <div *ngIf='quote.showDescription'>
-            <app-quote-detail  [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quote-detail>
+
+        <div class="card" style="width: 18rem;"  *ngFor='let quote of quotes;let i = index' id="wizard">
+
+          <div class="card-body">
+            <div>
+             
+              <li> {{quote.id}}. {{quote.name}},  {{quote.author}}</li>
+              <li>{{quote.title}}</li>
+              
+              <button (click)='toggleDetails(i)' class="btn btn-primary">Toggle Details</button>
+              
+            </div>
+             <app-prevote></app-prevote>
+            <div *ngIf='quote.showDescription'>
+              <app-quote-detail  [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quote-detail>
+            </div>
           </div>
         </div>
+        
       </div>
       <div class="col-md-6">
-        <app-quote-form></app-quote-form>
+        <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
       </div>
     </div>
   

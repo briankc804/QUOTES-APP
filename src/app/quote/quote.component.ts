@@ -23,17 +23,17 @@ export class QuoteComponent implements OnInit {
    }
    deleteQuote(isComplete: any,index: number){
      if (isComplete) { 
-       let toDelete = confirm('Are you sure you want to delete ${this.quotes[index].name}?')
+       let toDelete = confirm('Are you sure you want to delete ${this.quote[index].name}?')
        if (toDelete)
        this.quotes.splice(index,1);
      }
      
    }
-   addNewQ(quotes:any){
+   addNewQuote(quote:any){
     let quoteLength = this.quotes.length;
-    quotes.id = quoteLength+1;
-    Quote.completeDate = new Date(quotes.completeDate)
-    this.quotes.push(quotes)
+    quote.id = quoteLength+1;
+    Quote.completeDate = new Date(quote.completeDate)
+    this.quotes.push(quote)
   }
   constructor() { }
 

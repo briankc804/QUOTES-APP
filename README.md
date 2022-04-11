@@ -31,3 +31,6 @@ HTML
 Javascript
 CSS
 Angular
+## contact us
+Email : briankc804@gmail.com
+instagram : https://www.instagram.com/brian._.kc/

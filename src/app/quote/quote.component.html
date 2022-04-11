@@ -10,6 +10,7 @@
             <li> {{quote.id}} {{quote.name}}, {{quote.title}}, {{quote.author}}</li>
             
             <button (click)='toggleDetails(i)' class="btn btn-primary">Toggle Details</button>
+            
           </div>
   
           <div *ngIf='quote.showDescription'>
@@ -22,5 +23,5 @@
       </div>
     </div>
   
-    <p *ngIf='quotes.length > 45'>You have too many goals</p>
+    <p *ngIf='quotes.length > 45'>You have too many quotes</p>
   </div>

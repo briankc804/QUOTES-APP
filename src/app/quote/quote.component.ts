@@ -27,7 +27,14 @@ export class QuoteComponent implements OnInit {
        if (toDelete)
        this.quotes.splice(index,1);
      }
+     
    }
+   addNewQ(quotes:any){
+    let quoteLength = this.quotes.length;
+    quotes.id = quoteLength+1;
+    Quote.completeDate = new Date(quotes.completeDate)
+    this.quotes.push(quotes)
+  }
   constructor() { }
 
   ngOnInit() {

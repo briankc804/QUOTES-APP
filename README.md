@@ -36,3 +36,12 @@ Email : briankc804@gmail.com
 instagram : https://www.instagram.com/brian._.kc/
 ## License
 Using MIT license
+## Authors information
+My name is Brian Kiplangat Cheruiyot. 
+I am a student at Moringa School.
+
+## BDB
+this code can know wrong code entered,wrong details
+
+## Set up instruction
+Define your goalBack End of your application Test prototype

@@ -43,5 +43,3 @@ I am a student at Moringa School.
 ## BDB
 this code can know wrong code entered,wrong details
 
-## Set up instruction
-Define your goalBack End of your application Test prototype
